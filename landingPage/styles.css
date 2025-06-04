@@ -1,0 +1,33 @@
+.image-holder {
+    position:relative; 
+  }    
+  .image-holder:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+.textOverPicCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textOverPicAbove {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.league-spartan-font {
+  font-family: "League Spartan", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
